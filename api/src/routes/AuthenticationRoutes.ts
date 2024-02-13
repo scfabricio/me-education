@@ -1,5 +1,5 @@
 import express from 'express';
-import { AuthenticationCountroller } from '../features/authentication/controllers/AuthenticationController';
+import { AuthenticationCountroller } from '../api/authentication/controllers/AuthenticationController';
 
 const AuthenticationRoutes = express.Router();
 
